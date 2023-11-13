@@ -12,9 +12,6 @@ all : $(NAME)
 $(NAME) : $(OBJS)
 	ar -rc $(NAME) $(OBJS)
 
-so: $(OBJS)
-	gcc --shared -o libft.so $(OBJS) $(OBJSB)
-
 %.o : %.c $(HEADER)
 	$(CC) $(CFLAGS) $< -c -o $@
 
