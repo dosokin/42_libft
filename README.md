@@ -11,7 +11,6 @@ The project focuses on understanding low-level programming concepts such as memo
 
 * C
 * Makefile
-* GCC
 
 ## Features
 
